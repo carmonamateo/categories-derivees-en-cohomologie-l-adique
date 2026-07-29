@@ -5,7 +5,7 @@ This project, involving the transcription of J.-P. Jouanolou's thesis, was condu
 ## 
 
 - [x] Transcription <br>
-[Releases](https://github.com/gmateocarmona/Jouanolou/releases)
+[Releases](https://github.com/carmonamateo/categories-derivees-en-cohomologie-l-adique/releases)
 - [x] Proofread
 - [x] Preprint <br>
 [HAL](https://theses.hal.science/tel-04236971v1)
