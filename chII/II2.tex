@@ -492,7 +492,7 @@ Alors, étant données $E \in \D^-_c(X, A)$ et $F \in \D^+_c(X, A)$, les systèm
 $$
 \widehat{\Ext}^i_A(E, F) \quad (i \in \mathbf{Z})
 $$
-sont des $A$-faisceaux \emph{constructibles} sur le topos ponctuel, et les applications canoniques évidentes
+sont des $A$-faisceaux \textup{constructibles} sur le topos ponctuel, et les applications canoniques évidentes
 $$
 \Ext^i_A(E, F) \to \varprojlim_n \Ext^i_{A_n}(\bLd u^*_n(E), \bLd u^*_n(F))
 $$
@@ -500,14 +500,14 @@ sont des \emph{bijections}. En particulier, les $\hat{A}$--modules
 $$
 \Ext^i_A(E, F)
 $$
-sont \emph{de type fini}.
+sont \textup{de type fini}.
 }
 \vskip .3cm
-Preuve~: Les isomorphismes de Cartan (2.6)
+Preuve. Les isomorphismes de Cartan (2.6)
 $$
 \mathrm{H}^i(X, \bRd \cHom_{A_n}(\bLd u^*_n(E), \bLd u^*_n(F))) \isomlong \Ext^i_{A_n}(\bLd u^*_n(E), \bLd u^*_n(F))
 $$
-et l'isomorphisme (I 8.1.11 (iv))
+et l'isomorphisme (I {\bf 8.1.11} $(iv)$)
 $$
 \bLd u^*_n \bRd \cHom_A(E, F) \isomlong \bRd \cHom_{A_n}(\bLd u^*_n (E), \bLd u^*_n(F)))
 $$
@@ -515,7 +515,7 @@ montrent que
 $$
 \widehat{\Ext}^i_A(E, F) \isom \widehat{\Ext}^i_A(A, \bRd \cHom_A(E, F)).
 $$
-Or le complexe $\bRd \cHom_A(E, F)$ est à cohomologie constructible (2.5 (iii)) donc, pour voir que $\widehat{\Ext}^i_A(E, F)$ est un $A$-faisceau constructible, on peut supposer que $E = A$. Dans ce cas, la suite spectrale canonique
+Or le complexe $\bRd \cHom_A(E, F)$ est à cohomologie constructible (2.5 $(iii)$) donc, pour voir que $\widehat{\Ext}^i_A(E, F)$ est un $A$-faisceau constructible, on peut supposer que $E = A$. Dans ce cas, la suite spectrale canonique
 $$
 E^{p, q}_2 = \widehat{\Ext}^p_A(A, \mathrm{H}^q(F)) \Rightarrow \widehat{\Ext}^{p+q}_A(E, F),
 $$
@@ -544,11 +544,11 @@ $$
 $$
 qui permet aussitôt de conclure.
 
-Montrons maintenant (2.13.3). Nous allons le voir par récurrence croissante sur l'entier
+Montrons maintenant ({\bf 2.13.3}). Nous allons le voir par récurrence croissante sur l'entier
 $$
-\text{dim}_A(M) =~\text{dim}_A(A/\ann(M)), 
+\text{dim}_A(M) =~\operatorname{dim}_A(A/\ann(M)), 
 $$
-appelé dimension de $M$. Si dim$_A(M) = 0$, le $A$-faisceau $M$ est annulé par une puissance de $J$, donc il existe un entier $n \geq 0$ tel que $M$ soit défini par un $A_n$--Module constructible. Soit alors $P$ une résolution à gauche de $M$ par des $A_n$--Modules de la forme $i_!(A_n)$, où $i: T \to e_X$ désigne l'unique morphisme d'un objet noethérien de $X$ dans l'objet final. Grâce à (2.13.4), on a une suite spectrale birégulière
+appelé dimension de $M$. Si dim$_A(M) = 0$, le $A$-faisceau $M$ est annulé par une puissance de $J$, donc il existe un entier $n \geq 0$ tel que $M$ soit défini par un $A_n$--Module constructible. Soit alors $P$ une résolution à gauche de $M$ par des $A_n$--Modules de la forme $i_!(A_n)$, où $i: T \to e_X$ désigne l'unique morphisme d'un objet noethérien de $X$ dans l'objet final. Grâce à ({\bf 2.13.4}), on a une suite spectrale birégulière
 $$
 E^{p, q}_1 = \widehat{\Ext}^q_A(A, P^p) \Rightarrow \widehat{\Ext}^{p+q}_A(A, M),
 $$
@@ -560,9 +560,9 @@ permet de supposer que $M$ est de la forme $i_!(L^p)$ pour un entier $p$, donc e
 $$
 \hat{\mathrm{H}}^i(M) = (\mathrm{H}^i(X, M_n))_{n \in \mathbf{N}}.
 $$
-Dans ce cas, l'hypothèse (ii) de l'énoncé permet de conclure grâce au lemme de SHIH (SGA5 V 5.3.1). Soit maintenant $r$ un entier $\geq 0$, et supposons l'assertion vraie pour tous les $A$-faisceau constructibles de dimension $\leq r$. Nous allons voir qu'elle est vraie pour tout $A$-faisceau constructible $M$ de dimension $r+1$. Comme $r+1 > 0$, il existe un élément $a$ de $J$ qui n'appartient à aucun idéal premier minimal dans $\Ass(A/\ann(M))$; on a alors (EGA $0_{IV}$ 16.3.4)
+Dans ce cas, l'hypothèse $(ii)$ de l'énoncé permet de conclure grâce au lemme de SHIH (SGA5 V 5.3.1). Soit maintenant $r$ un entier $\geq 0$, et supposons l'assertion vraie pour tous les $A$-faisceau constructibles de dimension $\leq r$. Nous allons voir qu'elle est vraie pour tout $A$-faisceau constructible $M$ de dimension $r+1$. Comme $r+1 > 0$, il existe un élément $a$ de $J$ qui n'appartient à aucun idéal premier minimal dans $\Ass(A/\ann(M))$; on a alors (EGA $0_{text{IV}}$ {\bf 16.3.4})
 $$
-\text{dim}_A(A/(\ann(M) + aA)) = r.
+\operatorname{dim}_A(A/(\ann(M) + aA)) = r.
 $$
 Comme $M$ est noethérien dans la catégorie des $A$-faisceaux constructibles, la suite croissante des sous-$A$-faisceaux
 $$
@@ -580,7 +580,7 @@ donne lui à une suite exacte illimitée
 $$
 \dots \hat{\mathrm{H}}^{i-1}(M/\Ker(a)) \to \hat{\mathrm{H}}^i(\Ker(a)) \to \hat{\mathrm{H}}^i(M) \to \hat{\mathrm{H}}^i(M/\Ker(a)) \to \hat{\mathrm{H}}^{i+1}(\Ker(a)) \dots 
 $$
-Mais $\Ker(a)$ est de dimension $\leq r$ par construction de $a$. Utilisant l'hypothèse de récurrence et le caractère exact de la sous-catégorie des $A$-faisceaux constructibles, on peut donc remplacer $M$ par $M/\Ker(a)$ donc supposer que la multiplication par $a$ définit un monomorphisme sur $M$. Nous allons alors montrer que $\hat{\mathrm{H}}^i(M)$ est constructible par récurrence décroissante sur l'entier $i$, compte tenu de (2.13.4). D'après (loc.cit.), l'assertion est évidente pour $i \geq d+1$. Supposons donné un entier $p$ tel qu'elle soit vraie pour $i \geq p+1$, et montrons qu'elle est vraie pour $p$. Pour tout entier $q$, on a une suite exacte
+Mais $\Ker(a)$ est de dimension $\leq r$ par construction de $a$. Utilisant l'hypothèse de récurrence et le caractère exact de la sous-catégorie des $A$-faisceaux constructibles, on peut donc remplacer $M$ par $M/\Ker(a)$ donc supposer que la multiplication par $a$ définit un monomorphisme sur $M$. Nous allons alors montrer que $\hat{\mathrm{H}}^i(M)$ est constructible par récurrence décroissante sur l'entier $i$, compte tenu de ({\bf 2.13.4}). D'après (loc.cit.), l'assertion est évidente pour $i \geq d+1$. Supposons donné un entier $p$ tel qu'elle soit vraie pour $i \geq p+1$, et montrons qu'elle est vraie pour $p$. Pour tout entier $q$, on a une suite exacte
 $$
 0 \to M \xlongrightarrow{a^q} M \to M/a^qM \to 0,
 $$
@@ -600,13 +600,13 @@ d'où résulte, comme le terme de gauche vérifie la condition de Mittag-Leffler
 $$
 \hat{\mathrm{H}}^p(M) / J^q \hat{\mathrm{H}}^p(M)
 $$
-est constructible (cf. la preuve de SGA5 V 3.2.4 (i)). L'assertion résulte alors de (1.2 (iii)) et (1.6).
+est constructible (cf. la preuve de SGA5 V {\bf 3.2.4} $(i)$). L'assertion résulte alors de ({\bf 1.2} $(iii)$) et ({\bf 1.6}).
 
 Ceci dit, posant pour tout $i \in \mathbf{Z}$
 $$
 \ext^i_A(E, F) = \varprojlim_p \Ext^i_A (\bLd u^*_p (E), \bLd u^*_p(F)),
 $$
-on obtient, grâce à (EGA $0_{III}$ 13.2.2), un bifoncteur cohomologique
+on obtient, grâce à (EGA $0_{text{III}}$ 13.2.2), un bifoncteur cohomologique
 $$
 \D^-_c(X, A)^\circ \times \D^+_c(X, A) \to \hat{A}-\modn, 
 $$
@@ -618,21 +618,21 @@ est un isomorphisme. On se ramène comme précédemment au cas où $E = A$.
 
 On dispose alors, par la voie des couples exacts, de deux suites spectrales 
 $$
-\mathbf{E}' \qquad 'E^{p, q}_2 = \Ext^p_A(A, \mathrm{H}^q(F)) \Rightarrow \Ext^p_A(A, F)
+\mathbf{E}' \quad \quad \quad 'E^{p, q}_2 = \Ext^p_A(A, \mathrm{H}^q(F)) \Rightarrow \Ext^p_A(A, F)
 $$
 $$
-\mathbf{E}'' \qquad ''E^{p, q}_2 = \ext^p_A(A, \mathrm{H}^q(F)) \Rightarrow \ext^p_A(A, F)
+\mathbf{E}'' \quad \quad \quad ''E^{p, q}_2 = \ext^p_A(A, \mathrm{H}^q(F)) \Rightarrow \ext^p_A(A, F)
 $$
 et d'un morphisme naturel $\mathbf{E}' \to \mathbf{E}''$. Ces deux suites spectrales sont birégulières; pour la première, c'est évident (son support est dans un cadran supérieur droit), et pour la seconde cela résulte du lemme ci-dessous.
 \vskip .3cm
 {
 Lemme {\bf 2.13.5}. --- \it Soit $M$ un $A$-faisceau sur $X$. On a 
 $$
-\ext^i_A(A, M) = 0 \quad \text{pour} \quad i < -2~\text{dim}(A).
+\ext^i_A(A, M) = 0 \quad \text{pour} \quad i < -2~\operatorname{dim}(A).
 $$
 }
 \vskip .3cm
-En effet, pour tout entier $m$, le complexe $\bLd u^*_m(M)$ est acyclique en dimensions $< -2~\text{dim}(A)$, puisque la catégorie des $A$-faisceaux est de tor-dimension $\leq 2~\text{dim}(A)$ (I 5.16).
+En effet, pour tout entier $m$, le complexe $\bLd u^*_m(M)$ est acyclique en dimensions $< -2~\operatorname{dim}(A)$, puisque la catégorie des $A$-faisceaux est de tor-dimension $\leq 2~\operatorname{dim}(A)$ (I {\bf 5.16}).
 
 La comparaison des deux suites spectrales précédentes permet alors de se ramener au cas où $F$ est réduit au degré 0 est défini par un $A$-faisceau constructible noté de même. Nous allons alors encore une fois raisonner sur la dimension de $F$. Lorsque dim$_A(F) = 0$, l'assertion résulte, au moyen des dévissages utilisés pour prouver la constructibilité des $\mathrm{H}^i(F)$, du lemme suivant, appliqué à un $A$-faisceau constructible et plat de la forme $i_!(A)$, où $i: T \to e_X$ est l'unique morphisme d'un objet noethérien de $X$ dans l'objet final.
 \vskip .3cm
@@ -644,9 +644,9 @@ $$
 est une bijection.
 }
 \vskip .3cm
-En effet, le système projectif $\overline{\mathrm{H}}^{i-1}(X, M)$ vérifie la condition de Mittag-Leffler, d'après l'hypothèse (ii) et le lemme de SHIH. Le lemme résulte donc de (I 7.4.16).
+En effet, le système projectif $\overline{\mathrm{H}}^{i-1}(X, M)$ vérifie la condition de Mittag-Leffler, d'après l'hypothèse $(ii)$ et le lemme de SHIH. Le lemme résulte donc de (I {\bf 7.4.16}).
 
-Soit maintenant $r$ un entier $\geq 0$, et supposons l'assertion vraie pour tous les $A$-faisceaux constructibles de dimension $\leq r$. Nous allons voir qu'elle est vraie pour tout $A$-faisceau constructible $F$ de dimension $r+1$. On choisit un élément $a$ comme plus haut. Utilisant le lemme des 5, on se ramène à vérifier l'assertion lorsque de plus la multiplication par $a$ définit un monomorphisme de $F$. Nous allons alors montrer l'assertion par récurrence décroissante sur l'entier $i$, en commen\c{c}ant par voir qu'elle est vraie pour les grandes valeurs de $i$. Pour $i \geq d+2$, il résulte de (I 7.4.16) que
+Soit maintenant $r$ un entier $\geq 0$, et supposons l'assertion vraie pour tous les $A$-faisceaux constructibles de dimension $\leq r$. Nous allons voir qu'elle est vraie pour tout $A$-faisceau constructible $F$ de dimension $r+1$. On choisit un élément $a$ comme plus haut. Utilisant le lemme des 5, on se ramène à vérifier l'assertion lorsque de plus la multiplication par $a$ définit un monomorphisme de $F$. Nous allons alors montrer l'assertion par récurrence décroissante sur l'entier $i$, en commen\c{c}ant par voir qu'elle est vraie pour les grandes valeurs de $i$. Pour $i \geq d+2$, il résulte de (I {\bf 7.4.16}) que
 $$
 \mathrm{H}^i(X, F) = 0,
 $$
@@ -665,11 +665,11 @@ L'hypothèse de récurrence sur la dimension montre que
 $$
 \mathrm{h}^i(X, F/aF) = \mathrm{H}^i(X, F/aF) = 0,
 $$
-la dernière égalité provenant d'une nouvelle application de (I 7.4.16). Par suite $\mathrm{h}^i(X, F) = a \mathrm{h}^i(X, F)$, d'où $\mathrm{h}^i(X, F) = 0$ par le lemme de Nakayama. Supposons maintenant donné un entier $p$ tel que le morphisme canonique
+la dernière égalité provenant d'une nouvelle application de (I {\bf 7.4.16}). Par suite $\mathrm{h}^i(X, F) = a \mathrm{h}^i(X, F)$, d'où $\mathrm{h}^i(X, F) = 0$ par le lemme de Nakayama. Supposons maintenant donné un entier $p$ tel que le morphisme canonique
 $$
 \mathrm{H}^i(X, F) \to \mathrm{h}^i(X, F)
 $$
-soit un isomorphisme pour $i \geq p+1$, et montrons que c'est un isomorphisme pour $i = p$. La suite exacte (2.13.7) fournit un diagramme commutatif exact
+soit un isomorphisme pour $i \geq p+1$, et montrons que c'est un isomorphisme pour $i = p$. La suite exacte ({\bf 2.13.7}) fournit un diagramme commutatif exact
 \[\begin{tikzcd}
 	{\mathrm{H}^p(X, F)} & {\mathrm{H}^p(X, F)} & {\mathrm{H}^p(X, F/aF)} & {\mathrm{H}^{p+1}(X, F)} \\
 	{\mathrm{h}^p(X, F)} & {\mathrm{h}^p(X, F)} & {\mathrm{h}^p(X, F/aF)} & {\mathrm{h}^{p+1}(X, F),}
@@ -684,35 +684,35 @@ soit un isomorphisme pour $i \geq p+1$, et montrons que c'est un isomorphisme po
 	\arrow["a", from=1-1, to=1-2]
 	\arrow["a", from=2-1, to=2-2]
 \end{tikzcd}\]
-dans lequel les flèches verticales sont les flèches canoniques. Par hypothèse de récurrence sur la dimension (resp. sur l'entier $i$), la flèche $u$ (resp. $v$) est un isomorphisme : par suite, la flèche canonique
+dans lequel les flèches verticales sont les flèches canoniques. Par hypothèse de récurrence sur la dimension (resp. sur l'entier $i$), la flèche $u$ (resp. $v$) est un isomorphisme~: par suite, la flèche canonique
 $$
 \mathrm{H}^p(X, F)/a\mathrm{H}^p(X, F) \to \mathrm{h}^p(X, F)/a\mathrm{h}^p(X, F)
 $$
-est un isomorphisme de $\hat{A}$--modules. On sait que $\mathrm{h}^p(X, F)$ est un $\hat{A}$--module de type fini, et il résulte du théorème de SHIH (SGA5 V A 3.2) et de (2.13.6) que $\mathrm{H}^p(X, F)$ est également un $\hat{A}$--module de type fini. On conclut alors par le lemme de Nakayama.
+est un isomorphisme de $\hat{A}$--modules. On sait que $\mathrm{h}^p(X, F)$ est un $\hat{A}$--module de type fini, et il résulte du théorème de SHIH (SGA5 V A {\bf 3.2}) et de ({\bf 2.13.6}) que $\mathrm{H}^p(X, F)$ est également un $\hat{A}$--module de type fini. On conclut alors par le lemme de Nakayama.
 \vskip .3cm
-{\bf Remarques 2.13.7}.
+Remarques {\bf 2.13.7}. ---
 \begin{itemize}
-    \item[(i)] Supposons par exemple que $X$ soit le topos étale d'un schéma de type fini sur un corps séparablement clos ou fini. Il est alors conjecturé que les conditions (i) et (ii) de (2.13.2) sont réalisées dans chacun des cas suivants :
+    \item[$(i)$] Supposons par exemple que $X$ soit le topos étale d'un schéma de type fini sur un corps séparablement clos ou fini. Il est alors conjecturé que les conditions $(i)$ et $(ii)$ de ({\bf 2.13.2}) sont réalisées dans chacun des cas suivants :
     \begin{itemize}
         \item[a)] Les $A_n$ sont des groupes abéliens de torsion, et $X$ est propre sur $K$. 
         \item[b)] Les $A_n$ sont des groupes abéliens de torsion première à la caractéristique de $k$. 
     \end{itemize}
     Elles sont en tout cas démontrées lorsque de plus le corps $k$ est de caractéristique 0, ou bien dim$(X) \leq 2$.
-    \item[(ii)] Lorsque $A$ est un anneau de valuation discrète et $X$ le topos étale d'un schéma noethérien, on peut préciser (2.13.2) en montrant que les systèmes projectifs
+    \item[$(ii)$] Lorsque $A$ est un anneau de valuation discrète et $X$ le topos étale d'un schéma noethérien, on peut préciser ({\bf 2.13.2}) en montrant que les systèmes projectifs
     $$
     \widehat{\Ext}^i_A(E, F)
     $$
-    vérifient la condition de Mittag-Leffler-Artin-Rees (SGA5 V 2.2.1). 
+    vérifient la condition de Mittag-Leffler-Artin-Rees (SGA5 V {\bf 2.2.1}). 
 
-    En effet, reprenant le dévissage utilisé dans la preuve de (2.13.2), on se ramène à le voir pou $E = A$, et $F$ le complexe de degré 0 associé à un $A$-faisceau constructible noté de même. Alors, utilisant (1.29), on se ramène au cas où $F$ est constructible et \emph{plat}, ce qui permet alors de conclure directement grâce au lemme de SHIH (SGA5 V 3.1 et A 3.2) et à l'hypothèse (ii).
-    \item[(iii)] L'hypothèse (i) de (2.13.2) sert uniquement pour montrer que $\bRd \cHom_A (E, F)$ est à cohomologie constructible. Elle est donc en particulier inutile lorsque $E \in \D^-_t(X, A)$, vu (2.5.(i)).
+    En effet, reprenant le dévissage utilisé dans la preuve de ({\bf 2.13.2}), on se ramène à le voir pou $E = A$, et $F$ le complexe de degré 0 associé à un $A$-faisceau constructible noté de même. Alors, utilisant (1.29), on se ramène au cas où $F$ est constructible et \emph{plat}, ce qui permet alors de conclure directement grâce au lemme de SHIH (SGA5 V 3.1 et A 3.2) et à l'hypothèse $(ii)$.
+    \item[$(iii)$] L'hypothèse $(i)$ de (2.13.2) sert uniquement pour montrer que $\bRd \cHom_A (E, F)$ est à cohomologie constructible. Elle est donc en particulier inutile lorsque $E \in \D^-_t(X, A)$, vu (2.5.(i)).
 \end{itemize}
 \vskip .3cm
-{\bf 2.13.8}. Sans hypothèse particulière sur $X$ ou $A$, il résulte de (2.13.1) que 
+{\bf 2.13.8}. Sans hypothèse particulière sur $X$ ou $A$, il résulte de ({\bf 2.13.1}) que 
 $$
 \D^-_c(X, A) \hookrightarrow \D^-_0(X, A) \quad \text{(I 8.2.7).}
 $$
-On en déduit pour tout entier $n \geq 0$ un foncteur exact (8.2.9)
+On en déduit pour tout entier $n \geq 0$ un foncteur exact ({\bf 8.2.9})
 $$
 \bLd \alpha^*_n : \D^b_c(X, A)_{\torf} \to \D^b_c(A_n-\Mod_X)_{\torf}
 $$
@@ -722,27 +722,27 @@ Si maintenant $A$ est régulier et local d'idéal maximal $J$, on a même une in
 $$
 \D_c(X, A) \hookrightarrow \D_0(X, A),
 $$
-qui permet, lorsque de plus $X$ est noethérien, de définir pour tout entier $n \geq 0$ un foncteur exact (8.2.9.bis)
+qui permet, lorsque de plus $X$ est noethérien, de définir pour tout entier $n \geq 0$ un foncteur exact ({\bf 8.2.9.}bis)
 $$
 \Ld \alpha^*_n: \D^+_c(X, A) \to \D^+_c(A_n-\Mod_X).
 $$
 \vskip .3cm
 {
-Proposition {\bf 2.13.9}. --- \it Sous les hypothèses de (2.13.2), les applications canoniques 
+Proposition {\bf 2.13.9}. --- \it Sous les hypothèses de ({\bf 2.13.2}), les applications canoniques 
 $$
 \Ext^i_A(E, F) \to \varprojlim_n \Ext^i_{A_n} (\bLd \alpha^*_n(E), \bLd \alpha^*_n(F))
 $$
 sont des isomorphismes de $\hat{A}$--modules.
 }
 \vskip .3cm
-Preuve~: Par définition des foncteurs $\bLd \alpha^*_n$, on a 
+Preuve. Par définition des foncteurs $\bLd \alpha^*_n$, on a 
 $$
 \Ext^i_{A_n} (\bLd \alpha^*_n(E), \bLd \alpha^*_n(F))~\text{``=''}~\Ext^i_{A_n}(\bLd u^*_n(E), \bLd u^*_n(F)).
 $$
 \vskip .3cm
-{\bf Remarques 2.13.10}. La proposition (2.13.9) ramène en pratique l'étude ces complexes de $A$-faisceaux à cohomologie constructible à celle des complexes de $A_n$--Modules constructibles $(n \geq 0)$, et sera de ce fait un instrument privilégié pour obtenir, à partir d'énoncés sur les $A_n$--Modules, les énoncés correspondants pour les $A$-faisceaux.
+Remarques {\bf 2.13.10}. La proposition ({\bf 2.13.9}) ramène en pratique l'étude ces complexes de $A$-faisceaux à cohomologie constructible à celle des complexes de $A_n$--Modules constructibles $(n \geq 0)$, et sera de ce fait un instrument privilégié pour obtenir, à partir d'énoncés sur les $A_n$--Modules, les énoncés correspondants pour les $A$-faisceaux.
 
-La proposition suivante généralise la dernière assertion de (2.13.2).
+La proposition suivante généralise la dernière assertion de ({\bf 2.13.2}).
 \vskip .3cm
 {
 Proposition {\bf 2.14}. --- \it Soit $X$ un topos noethérien. On suppose que 
@@ -758,33 +758,26 @@ Alors, étant donnés $B \in \D^-_c(X, A)$ et $F \in \D^+_c(X, A)$, ls systèmes
 $$
 \overline{\Ext}^i_A(E, F) \quad (i \in \mathbf{Z})
 $$
-(I 6.2.1) sont des $A$-faisceaux \emph{constructibles} sur le topos ponctuel et les applications canoniques (I 7.4.16)
+(I {\bf 6.2.1}) sont des $A$-faisceaux \textup{constructibles} sur le topos ponctuel et les applications canoniques (I {\bf 7.4.16})
 $$
 \Ext^i_A(E, F) \to \varprojlim \overline{\Ext}^i_A(E, F)
 $$
 sont des bijections. En particulier, les $\hat{A}$--modules $\Ext^i_A(E, F)$ sont de \emph{type fini}.
 }
 \vskip .3cm
-Preuve~: Montrons que les $A$-faisceaux $\overline{\Ext}^i_A(E, F)$ sont constructibles, les autres assertions en découlant sans peine grâce à la suite exacte (I 7.4.16). On a l'isomorphisme de Cartan (2.6)
+Preuve. Montrons que les $A$-faisceaux $\overline{\Ext}^i_A(E, F)$ sont constructibles, les autres assertions en découlant sans peine grâce à la suite exacte (I {\bf 7.4.16}). On a l'isomorphisme de Cartan (2.6)
 $$
 \Rd \overline{\Hom}_A(E, F) \isom \Rd \overline{\Hom}_A(A, \bRd \cHom_A(E, F))
 $$
-qui permet, puisque $\bRd \cHom_A(E, F)$ est à cohomologie constructible (2.5.(iii)), de se ramener au cas où $E = A$. Alors la suite spectrale birégulière canonique
+qui permet, puisque $\bRd \cHom_A(E, F)$ est à cohomologie constructible (2.5. $(iii)$), de se ramener au cas où $E = A$. Alors la suite spectrale birégulière canonique
 $$
 E^{p, q}_2 = \overline{\mathrm{H}}^p(X, \mathrm{H}^q(F)) \Rightarrow \overline{\mathrm{H}}^{p+q}(X, F)
 $$
 montre qu'il suffit de voir l'assertion dans le cas où $F$ est le complexe de degré 0 associé à un $A$-faisceau constructible noté de même.
 
-Alors l'hypothèse (ii) et le lemme de SHIH (SGA5 V 3.1) permettent de conclure.
+Alors l'hypothèse $(ii)$ et le lemme de SHIH (SGA5 V 3.1) permettent de conclure.
 \vskip .3cm
-{\bf Remarques 2.15}. Comme pour (2.13.2), l'hypothèse (i) a servi uniquement pour assurer que le complexe $\bRd \cHom_A(E, F)$ est à cohomologie constructible. Elle est donc inutile en particulier dans le cas où $E \in \D^-_t(X, A)$.
-
-
-
-
-
-
-
+Remarques {\bf 2.15}. Comme pour ({\bf 2.13.2}), l'hypothèse $(i)$ a servi uniquement pour assurer que le complexe $\bRd \cHom_A(E, F)$ est à cohomologie constructible. Elle est donc inutile en particulier dans le cas où $E \in \D^-_t(X, A)$.
 
 
 % End
