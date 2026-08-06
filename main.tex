@@ -119,16 +119,23 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
-\newcommand*\isommap{%
-  \xlongrightarrow{\raisebox{-0.2 em}{\smash{\ensuremath{\sim}}}}%
-}
-\newcommand{\isomlong}{\isommap}
+    %\newcommand*\isommap{%
+    %  \xlongrightarrow{\raisebox{-0.2 em}{\smash{\ensuremath{\sim}}}}%
+    \newcommand*{\isommap}[1][.7cm]{%
+    \xlongrightarrow{%
+        \makebox[#1][c]{%
+        \raisebox{-0.2em}{\smash{\ensuremath{\sim}}}}}%
+    }
+    \newcommand{\isomlong}{\isommap}
 
- \newcommand{\cHom}{\mathrel{\mathscr{H}\mkern-2mu\text{\upshape om}}}
- \newcommand{\cTor}{\mathrel{\mathscr{T}\mkern-2mu\text{\upshape or}}}
- \newcommand{\cExt}{\mathrel{\mathscr{E}\mkern-2mu\text{\upshape xt}}}
+    \newcommand{\isom}{\simeq}
+    \renewcommand{\to}{\longrightarrow}
 
-   \DeclareMathOperator{\D}{D}
+    \newcommand{\cHom}{\mathrel{\mathscr{H}\mkern-2mu\text{\upshape om}}}
+    \newcommand{\cTor}{\mathrel{\mathscr{T}\mkern-2mu\text{\upshape or}}}
+    \newcommand{\cExt}{\mathrel{\mathscr{E}\mkern-2mu\text{\upshape xt}}}
+
+    \DeclareMathOperator{\D}{D}
     \DeclareMathOperator{\K}{K}
     \DeclareMathOperator{\Ld}{\mathrel{L}}
     \DeclareMathOperator{\Rd}{\mathrel{R}}
@@ -181,15 +188,6 @@
     \DeclareMathOperator{\Modt}{Modt}
     \DeclareMathOperator{\Modlc}{Modlc}
 
-
-	% arrows
-	 \newcommand{\isom}{\simeq}
-	\newcommand{\xto}{\xrightarrow}
-	\renewcommand{\to}{\longrightarrow}
-	\def\rinto{\HorizontalMap\rthooka-\empty-\rhla}
-	\def\linto{\HorizontalMap\lhla-\empty-\lthooka}
-	\def\dinto{\VerticalMap\dthookb|\empty|\dhla}
-	\def\uinto{\VerticalMap\uhla|\empty|\uthookb}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
