@@ -49,7 +49,7 @@ Proposition {\bf 3.2}. --- \it Soit $X$ un schéma de type fini sur $\mathbf{F}_
 \end{enumerate}
 }
 \vskip .3cm
-Preuve. Immédiat à partir des assertions analogues pour les objets de cohomologie (SGA5 XV {\bf 3.1}).
+Preuve. --- Immédiat à partir des assertions analogues pour les objets de cohomologie (SGA5 XV {\bf 3.1}).
 \vskip .3cm
 {
 Proposition {\bf 3.3}. --- \it Soient $X$ un schéma de type fini sur $\mathbf{F}_p$, $g: X \to \mathbf{F}_p$ le morphisme structural et $E \in \D^b_c(X, \mathbf{Q}_\ell)$. Alors
@@ -59,7 +59,7 @@ $$
 En particulier, $L_E$ est une fraction rationnelle.
 }
 \vskip .3cm
-Preuve. On peut supposer que $E$ est un $\mathbf{Q}_\ell$-faisceau constructible, et alors l'assertion n'est autre que (SGA5 XV {\bf 3.2}).
+Preuve. --- On peut supposer que $E$ est un $\mathbf{Q}_\ell$-faisceau constructible, et alors l'assertion n'est autre que (SGA5 XV {\bf 3.2}).
 \vskip .3cm
 {
 Corollaire {\bf 3.4}. --- \it Soit $h: X \to S$ un morphisme de schémas de type fini sur $\mathbf{F}_p$. Pour tout $E \in \D^b_c(X, \mathbf{Q}_\ell)$, on a
@@ -110,7 +110,7 @@ L_{\D_X(E)}(t) = (-t)^{-\chi(E)} \delta(E) L_E(t^{-1}).
 $$
 }
 \vskip .3cm
-Preuve. Le second membre a un sens d'après ({\bf 3.3}). Posons $S = \Spec \mathbf{F}_p$ et $\D_S = \bRd {\cHom}_{\mathbf{Q}_\ell}(. , \mathbf{Q}_\ell)$. D'après ({\bf 2.3.2} a)), on a 
+Preuve. --- Le second membre a un sens d'après ({\bf 3.3}). Posons $S = \Spec \mathbf{F}_p$ et $\D_S = \bRd {\cHom}_{\mathbf{Q}_\ell}(. , \mathbf{Q}_\ell)$. D'après ({\bf 2.3.2} a)), on a 
 $$
 \bRd g_* (\D_X E) \isomlong \D_S \bRd g_* (E),
 $$
@@ -118,7 +118,7 @@ donc (3.3)
 $$
 L_{\D_X}(E) = L_{\D_S(\bRd g_* (E))}.
 $$
-Comme $L_E = L_{\bRd g_* (E)}$ (3.3), l'assertion résultera du lemme suivant
+Comme $L_E = L_{\bRd g_* (E)}$ ({\bf 3.3}), l'assertion résultera du lemme suivant
 \vskip .3cm
 {
 Lemme {\bf 3.7}. --- \it Si $F \in \D^b_c(S, \mathbf{Q}_\ell)$, on a :
@@ -154,7 +154,7 @@ dans chacun des cas suivants
 \end{enumerate}
 }
 \vskip .3cm
-Preuve. Comme $\D_X(E) = \bRd {{\cHom}}_{\mathbf{Q}_\ell}(E, \mathbf{Q}_\ell(n))[2n]$, le cas $(i)$ résulte du lemme suivant.
+Preuve. --- Comme $\D_X(E) = \bRd {{\cHom}}_{\mathbf{Q}_\ell}(E, \mathbf{Q}_\ell(n))[2n]$, le cas $(i)$ résulte du lemme suivant.
 \vskip .3cm
 {
 Lemme {\bf 3.9.1}. --- \it Étant donnés un schéma noethérien $X$, $F \in \mathbf{Q}_\ell-\fsct(X)$ et $G \in \mathbf{Q}_\ell-\fscn(X)$, on a:
@@ -218,11 +218,13 @@ L_E(1/qt) = (-t)^{\chi(E)}\delta(E)L_E(t).
 \leqno{(3.12)}
 $$
 \vskip .3cm
-Remarque {\bf 3.13}. Sous les hypothèses de (3.9), l'existence d'un tel entier $p$ est assurée dans les cas suivants
-\begin{enumerate}
-    \item[cas~$(i)$] $E \isomlong \mathbf{Q}_\ell(m)$ \quad pour un $m \in \mathbf{Z}$, et alors $\rho = -2m$.
-    \item[cas~$(ii)$] $M \isomlong \mathbf{Q}_\ell(m)$ \quad pour un $m \in \mathbf{Z}$, et alors $\rho = -2m$.
-\end{enumerate}
+Remarque {\bf 3.13}. Sous les hypothèses de ({\bf 3.9}), l'existence d'un tel entier $p$ est assurée dans les cas suivants
+$$
+\begin{aligned}
+    \text{cas }(i)  &\quad E \isomlong \mathbf{Q}_\ell(m) \quad \text{pour un } m \in \mathbf{Z}, \text{ et alors } \rho = -2m, \\
+    \text{cas }(ii) &\quad M \isomlong \mathbf{Q}_\ell(m) \quad \text{pour un } m \in \mathbf{Z}, \text{ et alors } \rho = -2m.
+\end{aligned}
+$$
 (Pour ce dernier cas, il est immédiat que
 $$
 i_*(M^\vee) \isom (i_*(M))^\vee. \quad )
@@ -240,7 +242,7 @@ $$
 $$
 }
 \vskip .3cm
-Preuve. La substitution $t \mapsto 1/qt$ dans ({\bf 3.12}) fournit l'équation fonctionnelle
+Preuve. --- La substitution $t \mapsto 1/qt$ dans ({\bf 3.12}) fournit l'équation fonctionnelle
 $$
 L_E(t) = (-1/qt)^{\chi(E)}\delta(E)L_E(1/qt).
 \leqno{(3.12~\text{bis})}
