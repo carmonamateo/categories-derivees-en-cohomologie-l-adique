@@ -20,7 +20,7 @@ en posant pour tout $A$-faisceau $F = (F_n)_{n \in \mathbf{N}}$ sur $Y$
 $$
 f^*(F) = (f^*(F_n))_{n \in \mathbf{N}}
 $$
-et pour tout $\mathcal{E}(Y, J)$-morphisme $u = (u_n)_{n \in \mathbf{N}}$,
+et pour tout $\mathscr{E}(Y, J)$-morphisme $u = (u_n)_{n \in \mathbf{N}}$,
 $$
 f^*(u) = (f^*(u_n))_{n \in \mathbf{N}}.
 $$
@@ -31,7 +31,7 @@ f^*: A-\fsc(Y) \to A-\fsc(X).
 $$
 Il est clair que deux foncteurs images réciproques de $A-\Mod_Y$ dans $A-\Mod_X$, étant isomorphes, définissent des foncteurs isomorphes de $A-\fsc(Y)$ dans $A-\fsc(X)$~; par suite, on pourra parler, sans plus d'ambiguïté que dans le cas des faisceaux de $A$--Modules, ``du'' foncteur image réciproque. 
 \vskip .3cm
-Exemple {\bf 4.1.2}. Le foncteur restriction ({\bf 1.6.2}) associé à un morphisme $f: T \to T'$ d'objets d'un topos $X$ n'est autre que le foncteur image réciproque associé au morphisme de topos
+Exemple {\bf 4.1.2}. --- Le foncteur restriction ({\bf 1.6.2}) associé à un morphisme $f: T \to T'$ d'objets d'un topos $X$ n'est autre que le foncteur image réciproque associé au morphisme de topos
 $$
 X/T \to X/T'
 $$
@@ -43,23 +43,23 @@ $$
 $$
 vérifiant la condition de cocycles habituelle.
 \vskip .3cm
-{\bf 4.1.4}. Notant ``$\pt$'' le topos ponctuel, i.e. la catégorie des ensembles munie de la topologie canonique, on rappelle (2.8.1) que la catégorie $A-\fsc(\pt)$ s'identifie à la sous-catégorie pleine de $\Pro(A-\mod)$ engendrée par les systèmes projectifs $M = (M_n)_{n \in \mathbf{N}}$ de $A$--modules vérifiant $J^{n+1}M_n = 0$ pour tout $n \geq 0$. Si maintenant $X$ est un topos et 
+{\bf 4.1.4}. Notant ``$\pt$'' le topos ponctuel, i.e. la catégorie des ensembles munie de la topologie canonique, on rappelle ({\bf 2.8.1}) que la catégorie $A-\fsc(\pt)$ s'identifie à la sous-catégorie pleine de $\Pro(A--\mod)$ engendrée par les systèmes projectifs $M = (M_n)_{n \in \mathbf{N}}$ de $A$--modules vérifiant $J^{n+1} M_n = 0$ pour tout $n \geq 0$. Si maintenant $X$ est un topos et 
 $$
 p: X \to \pt 
 $$
 le morphisme de topos canonique, le foncteur $p^*$ associe à tout système projectif $M$ comme ci-dessus un $A$-faisceau sur $X$, qui sera noté de même s'il n'y a pas de confusion possible.
 
-Supposons maintenant que $A$ soit \emph{noethérien}. Il résulte du lemme d'Artin-Rees (EGA $0_I$ 7.3.2.1). que le foncteur
+Supposons maintenant que $A$ soit \emph{noethérien}. Il résulte du lemme d'Artin-Rees (EGA $0_{\text{I}}$ {\bf 7.3.2.1.}) que le foncteur
 $$
 M \mapsto (M/J^{n+1}M)_{n \in \mathbf{N}}
 \leqno{(4.1.4.1)}
 $$
-de la catégorie $A-\modn$ des $A$--modules de type fini dans $A-\fsc(\pt)$ est exact et fidèle, et même pleinement fidèle lorsque $A$ est complet pour la topologie $J$-adique (EGA $0_I$ 7.8.2). Composant avec le foncteur $p^*$, on en déduit un foncteur exact et fidèle
+de la catégorie $A-\modn$ des $A$--modules de type fini dans $A-\fsc(\pt)$ est exact et fidèle, et même pleinement fidèle lorsque $A$ est complet pour la topologie $J$-adique (EGA $0_{\text{I}}$ {\bf 7.8.2}). Composant avec le foncteur $p^*$, on en déduit un foncteur exact et fidèle
 $$
 A-\modn \to A-\fsc(\pt),
 \leqno{(4.1.4.2)}
 $$
-qui est de même pleinement fidèle lorsque $A$ est complet pour la topologie $J$-adique. Dans la suite, on identifiera si aucune confusion n'en résulte un $A$--module de type fini et le système projectif n'en résulte un $A$--module de type fini et le système projectif associé au moyen du foncteur (4.1.4.2). 
+qui est de même pleinement fidèle lorsque $A$ est complet pour la topologie $J$-adique. Dans la suite, on identifiera si aucune confusion n'en résulte un $A$--module de type fini et le système projectif n'en résulte un $A$--module de type fini et le système projectif associé au moyen du foncteur ({\bf 4.1.4.2}). 
 \vskip .3cm
 {\bf 4.1.5}. Soit $X$ un topos. Tout foncteur point
 $$
@@ -90,21 +90,21 @@ $$
 Mieux, la collection des foncteurs $(\Rd^p f_*)_{p \in \mathbf{Z}}$ est munie de fa\c{c}on évidente d'une structure de foncteur cohomologique de $\mathscr{E}(X, J)$ dans $\mathscr{E}(Y, J)$.
 \vskip .3cm
 {
-Lemme {\bf 4.2.1}. --- \it On suppose $f$ \emph{quasicompact} (SGA4 VI 3.1). Soit $u: F \to G$ un morphisme de $\mathscr{E}(X, J)$ dont le noyau et le conoyau sont négligeables. Alors pour tout entier $p \in \mathbf{Z}$, le morphisme 
+Lemme {\bf 4.2.1}. --- \it On suppose $f$ \textup{quasicompact} (SGA4 VI {\bf 3.1}). Soit $u: F \to G$ un morphisme de $\mathscr{E}(X, J)$ dont le noyau et le conoyau sont négligeables. Alors pour tout entier $p \in \mathbf{Z}$, le morphisme 
 $$
 \Rd^p f_* (u): \Rd^p f_* (F) \to \Rd^p f_* (G)
 $$
 est à noyau et conoyau négligeables.
 }
 \vskip .3cm
-Preuve~: Comme $f$ est quasicompact, on voit en se ramenant au cas où l'objet final de $X$ est quasicompact que pour tout $q \in \mathbf{Z}$ le foncteur $\Rd^q f_*$ transforme $A$-faisceau négligeant en $A$-faisceaux négligeable. Le lemme s'en déduit en utilisant la structure de foncteur cohomologique sur $(\Rd^p f_*)_{p \in \mathbf{Z}}$.
+Preuve. --- Comme $f$ est quasicompact, on voit en se ramenant au cas où l'objet final de $X$ est quasicompact que pour tout $q \in \mathbf{Z}$ le foncteur $\Rd^q f_*$ transforme $A$-faisceau négligeant en $A$-faisceaux négligeable. Le lemme s'en déduit en utilisant la structure de foncteur cohomologique sur $(\Rd^p f_*)_{p \in \mathbf{Z}}$.
 
-D'après les propriétés générales des catégories abéliennes quotients, la catégorie $A-\fsc(X)$ est obtenue à partir de $\mathcal{E}(X, J)$ en inversant les flèches dont le noyau et le conoyau sont négligeables. Il résulte de (4.2.1) que lorsque $f$ est \emph{quasicompact} le foncteur cohomologique $(\Rd^p f_*)_{p \in \mathbf{Z}}$ définit par passage au quotient un foncteur cohomologique noté de même
+D'après les propriétés générales des catégories abéliennes quotients, la catégorie $A-\fsc(X)$ est obtenue à partir de $\mathscr{E}(X, J)$ en inversant les flèches dont le noyau et le conoyau sont négligeables. Il résulte de ({\bf 4.2.1}) que lorsque $f$ est \emph{quasicompact} le foncteur cohomologique $(\Rd^p f_*)_{p \in \mathbf{Z}}$ définit par passage au quotient un foncteur cohomologique noté de même
 $$
 (\Rd^p f_*)_{p \in \mathbf{Z}}: A-\fsc(X) \to A-\fsc(Y).
 \leqno{(4.2.2)}
 $$
-Bien entendu, $\Rd^i f_* = 0$ pour $i < 0$, et en particulier le foncteur \emph{image directe} $f_* = \Rd^0 f_*$ est exact à gauche.
+Bien entendu, $\Rd^i f_* = 0$ pour $i < 0$, et en particulier le foncteur \emph{image directe} $f_* = \Rd^p f_*$ est exact à gauche.
 \vskip .3cm
 {
 Définition {\bf 4.2.3}. --- \it Soit $X$ un topos. On dit qu'un $A$-faisceau $F = (F_n)_{n \in \mathbf{N}}$ est \emph{flasque} si chacun des $F_n$ est un $A$--Module (ou, ce qui revient au même, un faisceau abélien) flasque.
@@ -122,9 +122,9 @@ Proposition {\bf 4.2.4}. --- \it
 \end{enumerate}
 }
 \vskip .3cm
-Preuve~: Lorsque $X$ admet suffisamment de points, le caractère fonctoriel de la ``résolution de Godement'' (SGA4 XII 3.4) permet de la prolonger aux systèmes projectifs, ce qui montre (i) dans ce cas.
+Preuve. --- Lorsque $X$ admet suffisamment de points, le caractère fonctoriel de la ``résolution de Godement'' (SGA4 XII 3.4) permet de la prolonger aux systèmes projectifs, ce qui montre $(i)$ dans ce cas.
 
-Dans le cas général, on laisse au lecteur le soin de faire la construction pas à pas. D'ailleurs, nous verrons plus loin (6.6.3) que la catégorie $\mathcal{E}(X, J)$ possède suffisamment d'injectifs et que ceux-ci sont flasques, ce qui prouvera également le résultat annoncé. Quant à l'assertion (ii), elle est immédiate.
+Dans le cas général, on laisse au lecteur le soin de faire la construction pas à pas. D'ailleurs, nous verrons plus loin ({\bf 6.6.3}) que la catégorie $\mathscr{E}(X, J)$ possède suffisamment d'injectifs et que ceux-ci sont flasques, ce qui prouvera également le résultat annoncé. Quant à l'assertion $(ii)$, elle est immédiate.
 \vskip .3cm
 {\bf 4.3}. Soient $X$ et $Y$ deux topos et $f: X \to Y$ un morphisme quasicompact. Soient $F$ un $A$-faisceau sur $Y$ et $G$ un $A$-faisceau sur $X$.
 
