@@ -119,15 +119,8 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
-    %\newcommand*\isommap{%
-    %  \xlongrightarrow{\raisebox{-0.2 em}{\smash{\ensuremath{\sim}}}}%
-    \newcommand*{\isommap}[1][.7cm]{%
-    \xlongrightarrow{%
-        \makebox[#1][c]{%
-        \raisebox{-0.2em}{\smash{\ensuremath{\sim}}}}}%
-    }
+    \newcommand{\isommap}{\xlongrightarrow{\sim}}
     \newcommand{\isomlong}{\isommap}
-
     \newcommand{\isom}{\simeq}
     \renewcommand{\to}{\longrightarrow}
 
@@ -281,8 +274,12 @@ DIXMIER & \\
 \renewcommand{\contentsname}{TABLE DES MATIÈRES}
 \tableofcontents\thispagestyle{empty}
 
-\setcounter{page}{0}
+\newpage
+\thispagestyle{empty}
+\mbox{}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{page}{0}
 
 \input{./chI/I1.tex}
 \input{./chI/I2.tex}
